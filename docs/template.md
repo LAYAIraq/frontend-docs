@@ -34,6 +34,14 @@ This is the description of the component. This should describe the components us
 Component Functionality
 ---------
 
+### Props
+- `prop1`
+…
+
+### Data
+- `data1`
+…
+
 ### Computed Properties
 #### VueX Getters
 
@@ -42,10 +50,6 @@ Component Functionality
 
 #### Local
 - `computed1`
-...
-
-### Methods
-- `method1`:
 ...
 
 ### Watchers
@@ -62,4 +66,8 @@ Component Functionality
 
 #### beforeDestroy
 
+...
+
+### Methods
+- `method1`:
 ...
