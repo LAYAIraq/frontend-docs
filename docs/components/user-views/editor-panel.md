@@ -35,7 +35,7 @@ Component Functionality
 #### Local
 - `acceptThreshold`: returns number of necessary votes to be accepted currently fixed value, can be computed if wanted 
 - `approved`: returns {boolean} if user has approved the current application 
-- `currentApplication`: returns copy of application for decision modal ??(@returns {object}?)
+- `currentApplication`: returns copy of application for decision modal 
 - `existingVote`: returns user's decision on current application 
 
 ### Methods
@@ -48,7 +48,7 @@ Component Functionality
 
 #### created
 - `$router.replace`: reroute non-editors 
--call `applicationsFetch`: get applications
+- call `applicationsFetch`: get applications
 
 #### beforeDestroy
--call `editorVoteUpdateAll`: persist votes in backend 
+- call `editorVoteUpdateAll`: persist votes in backend 
