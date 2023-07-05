@@ -17,9 +17,9 @@ Show Course Content
 
 ### Mixins
 
-* locale
-* routes
-* storeHandler
+* `locale`
+* `routes`
+* `storeHandler`
 
 Component Functionality
 ---------
@@ -53,16 +53,15 @@ Component Functionality
 - `contentToDisplay`: return current content object
 - `viewPermit`: returns true if user is allowed to see selected course 
 
-### Methods
-- `getCourse`: get course from backend, set title 
-- `followingContent`: returns follow set for content block ?(followingContent not followContent?)
-
-### Watchers
-- `courseFlags`: update when courseFlags change
- 
 ### Lifecycle Events
 
 #### created
 - call `getCourse`
 - call `enrollmentFetch`
 
+### Watchers
+- `courseFlags`: update when courseFlags change
+
+### Methods
+- `getCourse`: get course from backend, set title
+- `followingContent`: returns follow set for content block ?(followingContent not followContent?)

@@ -4,9 +4,9 @@ HeaderNotifications
 ## Structure
 
 ### Mixins
-- locale
-- storeHandler
-- time
+- `locale`
+- `storeHandler`
+- `time`
 
 Component Functionality
 ---------

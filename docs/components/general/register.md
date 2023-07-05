@@ -10,8 +10,8 @@ This component is responsible for displaying a user registration form and handli
 - `PasswordInput`
 
 ### Mixins
-- locale
-- password
+- `locale`
+- `password`
 
 ### Computed Properties
 - `errEmail`: form validation for email
