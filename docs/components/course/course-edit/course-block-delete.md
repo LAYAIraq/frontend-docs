@@ -7,7 +7,6 @@ This component provides tool to delete content block
 ### Roots
 * `CourseEditTools` 
 
-
 ### Dependencies
 * `vuex`
 
