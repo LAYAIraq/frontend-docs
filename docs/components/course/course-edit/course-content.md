@@ -37,14 +37,14 @@ Component Functionality
 - `stepData`: return input data for content 
 
 ### Watchers
-- `saveChange`:is set to true, it calls the "save" method to save the edited content.
+- `saveChange`:when set to true, it calls the `save` method to save the edited content.
 
 ### Lifecycle Events
 #### mounted
-- `!this.cid && !this.content`:called when the component is mounted and checks if the necessary data has been passed to the component. If the data is missing, it navigates back to the previous page using the Vue Router's "back" method.
+-  checks if the necessary data has been passed to the component. If the data is missing, it navigates back to the previous page using the Vue Router's "back" method.
 
 #### beforeDestroy
-- `this.editContent`:calls the "save" method and dispatches an action to update the course
+- `this.editContent`:when set to true, it calls the `save` method and dispatches an action to update the course
 
 ### Methods
 - `save`: to write changes made to the content to the store 

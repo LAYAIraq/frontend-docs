@@ -4,13 +4,9 @@ This component wraps all course edit tools.
 
 ## Structure
 
-### Dependencies
-* `CourseEditHeader`from `@/components/course/course-edit/course-edit-header.vue`
-* `CourseEditTools` from `@/components/course/course-edit/course-edit-tools.vue`
-
-### Components
-- `CourseEditHeader`
-- `CourseEditTools`
+#### Components
+- `CourseEditHeader`: lazy loaded
+- `CourseEditTools`: lazy loaded 
 
 ### Mixins
 * `locale`

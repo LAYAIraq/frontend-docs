@@ -26,7 +26,7 @@ Component Functionality
 - `course`
 
 #### Local
-- `inputWarning`: returns a string value, which is either the localized error message corresponding to the "badInput" property, or a default message if "badInput" is null or undefined. This computed property displays a warning message to the user if they entered invalid input.
+- `inputWarning`: returns a string value, which is either the localized error message corresponding to the `badInput` property, or a default message if `badInput` is null or undefined.
 
 ### Methods
-- `changeCourseCategory`: change course category
+- `changeCourseCategory`: checks for empty or duplicate category first 
