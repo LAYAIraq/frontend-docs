@@ -6,7 +6,7 @@ Reroute to edit content block
 
 ### Roots
 * `CourseEditTools`
- 
+
 ### Mixins
 * `locale`
 * `routes`

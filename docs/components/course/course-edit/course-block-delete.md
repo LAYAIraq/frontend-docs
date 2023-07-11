@@ -5,7 +5,7 @@ This component provides tool to delete content block
 ## Structure
 
 ### Roots
-* `CourseEditTools` 
+* `CourseEditTools`
 
 ### Mixins
 * `locale`

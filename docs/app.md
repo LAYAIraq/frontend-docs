@@ -15,8 +15,8 @@ This is the root component of LAYA. It sets some global styles, handles authenti
 
 ### Components
 
-- [`header`](../src/components/general/header.md)
-- [`footer`](../src/components/general/footer.md)
+- [`header`](../components/general/header)
+- [`footer`](../components/general/footer)
 
 ### VueX Store Modules
 
