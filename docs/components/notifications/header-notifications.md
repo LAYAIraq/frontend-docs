@@ -4,9 +4,9 @@ HeaderNotifications
 ## Structure
 
 ### Mixins
-- locale
-- storeHandler
-- time
+- `locale`
+- `storeHandler`
+- `time`
 
 Component Functionality
 ---------
@@ -36,4 +36,4 @@ Component Functionality
 - calls `setShortList`, filter the initial notifications data fetched in the previous step to create a smaller list of the relevant notifications for the user.
 
 #### mounted
--`beforeDestroy`: it dispatches "notificationsUpdateRead" to the Vuex store using the $store object.
+- `beforeDestroy`: it dispatches "notificationsUpdateRead" to the Vuex store using the $store object.
