@@ -24,7 +24,7 @@ Component Functionality
 - `courseList`
 
 #### Local
-- `renameOk`: prüft, ob eine Umbenennung des Kurses durch den Benutzer möglich ist oder nicht
+- `renameOk`: check whether it is possible for the user to rename the course or not.
 
 ### Watchers
 - `noName`

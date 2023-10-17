@@ -16,7 +16,7 @@ Component Functionality
 ---------
 
 ### Data
-- `changetyple`: set to null
+- `changetype`: set to null
 
 ### Computed Properties
 #### VueX Getters

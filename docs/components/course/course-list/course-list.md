@@ -32,5 +32,5 @@ Component Functionality
 - call `this.fetchCourses`
 
 ### Methods
-- `fetchCourses`: fetch all courses from database
+- `fetchCourses`: dispatch vuex action "courseListFetch"
 ...
