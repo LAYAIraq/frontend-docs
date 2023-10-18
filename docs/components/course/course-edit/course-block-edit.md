@@ -5,7 +5,7 @@ Reroute to edit content block
 ## Structure
 
 ### Roots
-* `CourseEditTools`
+* [`CourseEditTools`](./course-edit-tools)
 
 ### Mixins
 * `locale`

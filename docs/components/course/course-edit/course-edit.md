@@ -19,4 +19,4 @@ Component Functionality
 - `changeToSave`: is initialized with a boolean value of false to track whether there are any changes that need to be saved.
 
 #### Methods
-- `storeCourse`: store course in database
+- `storeCourse`: dispatch the courseUpdate store action, showing a toast if it resolves. 
