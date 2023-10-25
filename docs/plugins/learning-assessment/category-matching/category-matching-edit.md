@@ -1,73 +1,45 @@
-Component Name
+Category Matching Edit
 ===============
-
-This is the description of the component. This should describe the components use and behaviour in 3-8 sentences.
+This component is to edit or create category matching assessment. Allows instructors to manage category matching blocks for assessments.
 
 ## Structure
 
-### Roots
-
-* Parent Component 1
-* Parent Component 2
-
 ### Dependencies
-
-* Dependency 1
-* Dependency 2
-* Dependency 3
+* `deepCopy`from `@/mixins/general/helpers`
+* `v4 as uuidv4`from`uuid`
 
 ### Components
-
-- Component 1
-- Component 2
+- `CategoryMatchingEdit`
 
 ### Mixins
-
-* Mixin 1
-* Mixin 2
-* Mixin 3
-
-### VueX Store Modules
-
-* ...
+* `array`
+* `locale`
+* `pluginEdit`
+* `routes`
+* `tooltipIcon`
 
 Component Functionality
 ---------
-
-### Props
-- `prop1`
-…
-
 ### Data
-- `data1`
-…
+- `categories`:an array to store categories
+- `id`:initially set to null
+- `items`:an array to store items
+- `taskAudio`:an object representing the task audio
+- `task`:an object representing the task
+- `title`:an object representing the title
 
 ### Computed Properties
 #### VueX Getters
-
-- `getter1`
-...
-
-#### Local
-- `computed1`
-...
-
-### Watchers
-- `watcher1`:
-...
-
+- `courseContent`
+- `courseSimple`
 ### Lifecycle Events
 
 #### created
-
-#### mounted
-
-#### beforeUpdate
-
-#### beforeDestroy
-
-...
+- If in "edit" mode, fetches data
+- If not in "edit" mode, fills the form
+- Populates the task title
 
 ### Methods
-- `method1`:
-...
+- `fetchData`:fetch data from vuex and make data property 
+- `fillForm`:fill item and category props with localized tokens
+- `newItem`: creat a new object for items 
