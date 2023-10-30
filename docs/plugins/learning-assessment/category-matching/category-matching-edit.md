@@ -17,7 +17,6 @@ This component is to edit or create category matching assessment. Allows instruc
 
 Component Functionality
 ---------
-
 ### Data
 - `categories`:an array to store categories
 - `id`:initially set to null
@@ -30,7 +29,6 @@ Component Functionality
 #### VueX Getters
 - `courseContent`
 - `courseSimple`
-
 ### Lifecycle Events
 
 #### created
