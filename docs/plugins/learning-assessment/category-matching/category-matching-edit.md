@@ -8,9 +8,6 @@ This component is to edit or create category matching assessment. Allows instruc
 * `deepCopy`from `@/mixins/general/helpers`
 * `v4 as uuidv4`from`uuid`
 
-### Components
-- `CategoryMatchingEdit`
-
 ### Mixins
 * `array`
 * `locale`
@@ -37,9 +34,9 @@ Component Functionality
 ### Lifecycle Events
 
 #### created
-- If in "edit" mode, fetches data
-- If not in "edit" mode, fills the form
-- Populates the task title
+- If in `edit` mode, call `fetchesData`
+- If not in `edit` mode, call `fillsForm`
+- call `taskTitlePopulate`
 
 ### Methods
 - `fetchData`:fetch data from vuex and make data property 

@@ -5,20 +5,16 @@ This  component provides a user profile settings page. It allows users to view a
 ## Structure
 
 ### Dependencies
-* `AccessibilitiySettings`from`@/components/user-views/accessibility-settings`
-* `AuthorApplication`from`@/components/user-views/author-application`
-* `PasswordInput`from`@/components/helpers/password-input.vue`
-* `UploadAvatar`from`@/components/helpers/upload-avatar`
 * `api`from`@/backend-url`
 * `deepCopy`from`@/mixins/general/helpers`
 * `institutions`from`@/options/instituion.ts`
 * `occupations`from`@/options/occupation.ts`
 
 ### Components
-- `AccessibilitySettings`
-- `AuthorApplication`
+- [`AccessibilitySettings`](../accessibility-settings)
+- [`AuthorApplication`](../author-application)
 - `UploadAvatar`
-- `PasswordInput`: not lazily loaded b/c always visible
+- [`PasswordInput`](../../helpers/password-input): not lazily loaded b/c always visible
 
 ### Mixins
 * `locale`
