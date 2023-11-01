@@ -8,7 +8,7 @@ This component to upload and crop avatar.
 * `Cropper`from`cropperjs`
 
 ### Components
-- `FileUpload` 
+- [`FileUpload`](..upload-file)
 
 ### Mixins
 * `locale` 
@@ -16,7 +16,7 @@ This component to upload and crop avatar.
 Component Functionality
 ---------
 ### Props
-- `oldAvatar`:type: `String`: Specifies the prop type as String. Return `default`: Defines the default value for the prop.
+- `oldAvatar`:type:`String`, default value empty string
 
 ### Data
 - `cropper`: initialized with a value of `false`
