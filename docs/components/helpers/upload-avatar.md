@@ -8,7 +8,7 @@ This component to upload and crop avatar.
 * `Cropper`from`cropperjs`
 
 ### Components
-- [`FileUpload`](..upload-file)
+- [`FileUpload`](../upload-file)
 
 ### Mixins
 * `locale` 
