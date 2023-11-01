@@ -5,12 +5,15 @@ This component allows users to upload files, select from disk or drag & drop.
 
 ## Structure
 
+### Roots
+* [`UploadAvatar`](../upload-avatar)
+
 ### Mixins
 - files
 - locale
 
 ### Components
-- `vue-upload-component`
+- `vue-upload-component`: Lazily loaded
 
 Component Functionality
 ---------
