@@ -13,7 +13,7 @@ This  component provides a user profile settings page. It allows users to view a
 * `slugify`from`@/mixins/general/slugs`
 
 ### Components
-- [`CourseNavChapter`](../accessibility-settings)
+- [`AccessibilitySettings`](../accessibility-settings)
 - [`AuthorApplication`](../author-application)
 - `UploadAvatar`
 - [`PasswordInput`](../../helpers/password-input): not lazily loaded b/c always visible
