@@ -1,6 +1,6 @@
 ButtonNavigationEdit 
 ===============
-This component is edit Button Navigation content block
+This component is to edit Button Navigation content block
 
 ## Structure
 
@@ -36,7 +36,7 @@ Component Functionality
 - checks `this.edit` is in edit mode.
 - calls `this.fetchData` method if in edit mode.
 - else execute `this.taskTitlePopulate` method.
-- call `this._itemAdd(this.answers, this.newItem`: Adds a new item to the answers array.
+- call `this._itemAdd(this.answers, this.newItem)`: Adds a new item to the answers array.
 
 ### Methods
 - `fetchData`: fetch data from vuex and make data property 
