@@ -1,6 +1,6 @@
 Routes
 ===============
-This component is to inject properties for route dependent props 
+This mixin is to inject properties for route dependent props 
 
 ## Structure
 
@@ -11,19 +11,19 @@ Component Functionality
 ---------
 ### Props
 - `coursePath`
-  - `type`: `String`
+  - `type`: prob
   - `default`: return empty string 
 - `name`
-  - `type`: `String`
+  - `type`: prob
   - `default`: return empty string
 - `chapters`
-  - `type`: `String`
+  - `type`: prob
   - `default`: return empty string
 - `slug`
-  - `type`: `String`
+  - `type`: prob
   - `default`: return empty string
 - `step`
-  - `type`: `String`
+  - `type`: prob
   - `default`: return empty string
 
 ### Computed Properties
@@ -32,5 +32,5 @@ Component Functionality
 - `courseContentPathId`
 
 #### Local
-- `contentToDIsplay`: return current content block
+- `contentToDisplay`: return current content block
 - `pathId`: return course content path 

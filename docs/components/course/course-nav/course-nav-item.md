@@ -5,14 +5,14 @@ This component is used to render a single item in the course navigation editor.
 ## Structure
 
 ### Roots
-- [`CourseNavChapter`](...)
+- [`CourseNavChapter`](../course-nav)
 
 ### Dependencies
 * `chapterFollowSet`from`@/mixins/general/course-chapters`
 * `deepCopy`from`@/mixins/general/helpers`
 
 ### Components
-- [`CourseNavPropertyEdit`](...)
+- [`CourseNavPropertyEdit`](../course-nav)
 
 ### Mixins
 * `courseNav`

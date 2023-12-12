@@ -5,7 +5,7 @@ Editable property for course nav item .
 ## Structure
 
 ### Roots
-- [`CourseNavChapter`](...)
+- [`CourseNavChapter`](../course-nav)
 
 ### Mixins
 * `locale`

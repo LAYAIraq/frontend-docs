@@ -5,7 +5,7 @@ This component is used to implement a suggesting input box.
 ## Structure
 
 ### Roots
-- [`CourseNavFollowEdit`](..`@/components/course/course-nav/course-nav-follow-edit.vue`)
+- [`CourseNavFollowEdit`](../../course/course-nav)
 
 ### Dependencies
 * `camelToRender`,`filterObject`,`kebabToCamel`from `@/mixins/general/helpers`

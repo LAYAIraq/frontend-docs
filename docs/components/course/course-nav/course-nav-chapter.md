@@ -4,7 +4,7 @@ This component is used to display the follow edit view of a course nav.
 ## Structure
 
 ### Roots
-- [`CourseNavigationEditor`](...)
+- [`CourseNavigationEditor`](../course-nav)
 
 ### Dependencies
 * `Draggable`from`vuedraggable`
@@ -13,8 +13,8 @@ This component is used to display the follow edit view of a course nav.
 * `v4 as uuidv4`from`uuid`
 
 ### Components
-- [`CourseNavItem`](...)
-- [`CourseNavPropertyEdit`](...)
+- [`CourseNavItem`](../course-nav)
+- [`CourseNavPropertyEdit`](../course-nav)
 
 ### Mixins
 * `courseNav`
@@ -25,8 +25,8 @@ Component Functionality
 ### Props
 - `chapterNameDuplicate`: type: Boolean, default set to false
 - `chapterName`: type: String, default set to `chapterName`
-- `chapter`: type: Object, required: true
-- `courseEnd`: type: String, required: true
+- `chapter`: type: Object, required
+- `courseEnd`: type: String, required
 - `followingContent`: type: String, default set to null
 - `highlightedBlock`: type: String, default set to null
 - `main`: type: Boolean,default set to false

@@ -1,11 +1,11 @@
 Array
 ===============
-This component is to array manipulation methods.
+This mixin is to array manipulation methods.
 
 ## Structure
 
 Component Functionality
 ---------
 ### Methods
-- `Add`: to add new  items to items 
-- `remove`: to remove item at position idx
+- `_itemAdd`: to add new item to items 
+- `_itemDelete`: to remove item at position idx

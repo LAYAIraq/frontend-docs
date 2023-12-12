@@ -1,6 +1,6 @@
 PluginEdit
 ===============
-This component uses mixin to populate plugin data on create, and inject properties for plugin edit component
+This mixin to populate plugin data on create, and inject properties for plugin edit component
 
 ## Structure
 
@@ -11,8 +11,8 @@ Component Functionality
 ---------
 ### Props
 - `edit`
-  - `type`: `Boolean`
-  - `required`: boolean set to true
+  - `type`: Object 
+  - `required`:
 
 ### Methods
 - `taskTitlePopulate`: initializes the title and task objects with default empty string text, a generated uuid id, and a false flagged property.

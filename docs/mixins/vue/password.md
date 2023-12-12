@@ -1,6 +1,6 @@
 Password
 ===============
-This component is set passwordOk boolean and return password and passwordRepeat 
+This mixins is set passwordOk boolean and return password and passwordRepeat 
 
 ## Structure
 

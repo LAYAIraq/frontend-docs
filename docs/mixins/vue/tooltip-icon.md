@@ -1,6 +1,6 @@
 TooltipIcon
 ===============
-This component is to define variables for component tooltips 
+This mixin is to define variables for component tooltips 
 
 ## Structure
 

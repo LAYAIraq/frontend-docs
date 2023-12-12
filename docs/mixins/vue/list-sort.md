@@ -1,12 +1,11 @@
 ListSort
 ===============
-This component is to define methods for sorting lists
+This mixin is to define methods for sorting lists
 
 ## Structure
 
 ### Dependencies
-* `local` from `../../assets/i18n`
-* `vuex`
+* `as local` from `../../assets/i18n`
 
 Component Functionality
 ---------

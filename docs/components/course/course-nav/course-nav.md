@@ -10,7 +10,7 @@ This component provides a file wrap course navigation editor.
 * `v4 as uuidv4`from`uuid`
 
 ### Components
-- [`CourseNavChapter`](../accessibility-settings)
+- [`CourseNavChapter`](../course-nav)
 
 ### Mixins
 * `locale`

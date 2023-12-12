@@ -1,6 +1,6 @@
 Locale
 ===============
-This component is to expose i18n local to components 
+This mixin is to expose i18n local to components 
 
 ## Structure
 

@@ -1,6 +1,6 @@
 WatchContent
 ===============
-This component is to add watcher for content to every view, thus updating when data changes 
+This mixin is to add watcher for content to every view, thus updating when data changes 
 
 ## Structure
 

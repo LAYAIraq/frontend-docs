@@ -5,7 +5,7 @@ This component is used to display the follow edit view of a course nav item.
 ## Structure
 
 ### Components
-- [`SuggestingInput`](..`@/components/helpers/suggesting-input.vue`)
+- [`SuggestingInput`](../course-nav)
 
 ### Mixins
 * `array`

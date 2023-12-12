@@ -1,6 +1,6 @@
 PluginView
 ===============
-This component uses mixin to populate plugin data on create, and inject properties for plugin edit component
+This mixin to populate plugin data on create, and inject properties for plugin edit component
 
 ## Structure
 
@@ -9,11 +9,11 @@ Component Functionality
 ### Props
 - `onFinish`
   - `type`: `[Function, Array]`
-  - `default`: return void 
+  - `default`: void 
 - `viewData`
-  - `type`: `Object`
+  - `type`: Object 
   - `default`: return null 
 - `editPreview`
-  - `type`: `Boolean`
+  - `type`: Boolean
   - `default`: set to false 
 
