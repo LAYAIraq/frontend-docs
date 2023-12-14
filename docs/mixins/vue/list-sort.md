@@ -5,7 +5,7 @@ This mixin is to define methods for sorting lists
 ## Structure
 
 ### Dependencies
-* `as local` from `../../assets/i18n`
+* `as locale` from `../../assets/i18n`
 
 Component Functionality
 ---------

@@ -5,7 +5,7 @@ This component is used to implement a suggesting input box.
 ## Structure
 
 ### Roots
-- [`CourseNavFollowEdit`](../../course/course-nav)
+- [`CourseNavFollowEdit`](../course-nav-follow-edit)
 
 ### Dependencies
 * `camelToRender`,`filterObject`,`kebabToCamel`from `@/mixins/general/helpers`

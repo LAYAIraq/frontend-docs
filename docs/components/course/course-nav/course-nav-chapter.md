@@ -32,7 +32,7 @@ Component Functionality
 - `main`: type: Boolean,default set to false
 
 ### Data
-- `chapterNameChange `: set to false
+- `chapterNameChange`: set to false
 - `childrenVisibility`: empty object
 - `collapsed`: set to false
 - `dragEndIndex`: set to null

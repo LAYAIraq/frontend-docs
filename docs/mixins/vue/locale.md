@@ -19,7 +19,7 @@ Component Functionality
 
 #### Local
 - `courseLangIsAr`: checks if Arabic script language is set, for rtl shenanigans 
-- `i18n`: return local for user language property
+- `i18n`: return locale for user language property
 - `langIsAr`: checks if Arabic script language is set, for rtl shenanigans
 
 ### Methods
