@@ -2,6 +2,7 @@ Profile
 ===============
 This  component provides a user profile settings page. It allows users to view and edit important account information such as their password and avatar. Through this component, a user can manage settings related to their profile in one centralized location. They can update their password for added security or change their avatar image to customize their public profile display.
 
+
 ## Structure
 
 ### Dependencies
@@ -9,6 +10,7 @@ This  component provides a user profile settings page. It allows users to view a
 * `deepCopy`from`@/mixins/general/helpers`
 * `institutions`from`@/options/instituion.ts`
 * `occupations`from`@/options/occupation.ts`
+* `slugify`from`@/mixins/general/slugs`
 
 ### Components
 - [`AccessibilitySettings`](../accessibility-settings)
