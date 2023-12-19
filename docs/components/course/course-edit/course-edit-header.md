@@ -21,10 +21,4 @@ Component Functionality
 ### Computed Properties
 #### VueX Getters
 - `courseContent`
-- `courseContentIdRouteMap`
-
-#### Local
-- `checkEmpty`: returns true if no content in course 
-
-### Methods
-- `typeName`: returns name of content block 
+- `courseRoutes`
