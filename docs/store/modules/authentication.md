@@ -8,12 +8,12 @@ This store module is to organize authentications for users, including login, log
 
 ## State
 - `userId`: initialized to `0`
-- `onLine`: set to false 
+- `online`: set to false 
 
 ## Getters
 
 ### userId: 
-The provided getter, retrieves and returns the `number` `userId` from the `state`.
+The provided getter retrieves and returns the `number` `userId` from the `state`.
 
 ### userOnline
 The getter returns true if the user is logged in based on the `online` state variable.
